@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179523769-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-179523769-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>IB Documents - IB Guide</title>
+        
+    <link rel="icon" type="image/png" href="/assets/img/IBRR.png">
+      
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://www.ibdocuments.com/assets/css/bootstrap.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font-awesome.min.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css">
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/colors/default.css" media="screen"> 
+    
+    <style type="text/css">
+    
+#adblock-message {
+    display: none;
+    padding: 20px 10px;
+    background: #D30000;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.copyleft {
+    text-align: right;
+    font-weight: 600;
+    color: #31708f;
+}
+.cc {
+    text-align: center;
+}
+.qr {
+    color: #31708f;
+    font-weight: bold;
+}   
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+    float:right;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 310px;
+    background-color: white;
+    color: transparent;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -400px;
+    right: -10%;
+    border-radius: 20px;
+}
+.tooltip1 .tooltiptext1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -20px;
+    border-width: 5px;
+}
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+}
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+}
+.tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 150px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    border-bottom-right-radius: 0;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -150px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip2 .tooltiptext2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 96.7%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+    opacity: 1;
+}
+.input {
+    border-color: transparent;
+    background-color: transparent;
+    width: 214px;
+    font-family: segoe ui, sans-serif;
+    font-weight: bold;
+    font-size: 64%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px;
+    border: 0px;
+}
+.donbutton {
+    background-image: url(/assets/img/clipboard-copy.png);
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+    padding: 0px;
+    border: 0px;
+}
+.sponsors {
+    margin-top: 20px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+.spnsors:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.14);
+}
+.vid {
+    position: static;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-size: cover;
+    transition: 1s opacity;
+    -webkit-transform: translateX(0%) translateY(0%);
+    -moz-transform: translateX(0%) translateY(0%);
+    transform: translateX(0%) translateY(0%);
+}
+hr {
+    background-color: #e91e63ad;
+    border: 0;
+    height: .25em;
+    margin: 24px 0;
+    padding: 0;
+}
+
+h1 {
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: .3em;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-size: 36px;
+}
+
+.content{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+        
+p{
+    color: black;
+}
+        
+    </style>
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Roof area Starts -->
+      <div id="roof" class="hidden-xs">
+          <div class="container">
+            <div class="col-md-6 col-sm-6">
+              <div class="info-bar-address">
+                 Site Managed by IB Documents Team
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <!-- Quick Contacts Starts -->
+              <div class="quick-contacts">
+                  <span><img src="/assets/img/documents.png" style="margin-bottom: 2px" width="20" height="20"> Have Resources To Donate? Email Us!</span>
+                  <span><img src="/assets/img/envelope.png" style="margin-bottom: 2px; margin-right: 3px" width="20" height="15"> <a href="mailto:ibtemplarknight98@gmail.com">ibtemplarknight98@gmail.com</a></span>
+              </div>
+              <!-- Quick Contacts End -->
+            </div>
+          </div>
+      </div>
+      <!-- Roof area End -->
+
+      <!-- Nav Menu Section Start -->
+      <div class="navigation-menu">
+        <nav class="navbar navbar-default navbar-event" >
+          <div class="container">
+            <div class="navbar-header col-md-2">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="index.html"><img src="/assets/img/logo1.png" style="margin-top: 10px; z-index: 1;" width="269" height="85"></a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/IB BOOKS">IB BOOKS</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">PAST PAPERS<img src="/assets/img/down.png" style="margin-bottom: 4px; margin-left: 2px" width="15" height="15"></a>
+                   <ul class="dropdown-menu">
+                    <li><a href="/IB PAST PAPERS - SUBJECT">By Subject</a></li>
+                    <li><a href="/IB PAST PAPERS - YEAR">By Year</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><img src="/assets/img/qb.png" style="margin-bottom: 1px;" width="15" height="15"> QUESTIONBANKS<img src="/assets/img/down.png" style="margin-bottom: 4px; margin-left: 2px" width="15" height="15"></a>
+                   <ul class="dropdown-menu">
+                    <li><a href="/IB QUESTIONBANKS/1. First Edition">First Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/2. Second Edition">Second Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/3. Third Edition">Third Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/4. Fourth Edition">Fourth Edition</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://www.reddit.com/r/IBO/" target="_blank"><img src="/assets/img/reddit.png" style="margin-bottom: 2px; margin-right: 5px" width="15" height="15">REDDIT</a></li>                
+                <li><a href="https://discord.gg/ibo" target="_blank"><img src="/assets/img/discord.png" style="margin-bottom: 1px; margin-right: 3px" width="18" height="18">DISCORD</a></li>
+                <li><a href="https://t.me/ibdocs" target="_blank"><img src="/assets/img/telegram.png" style="margin-bottom: 2px; margin-right: 5px" width="15" height="15">TELEGRAM</a></li>
+              </ul>
+            </div><!-- /navbar-collapse -->
+          </div><!-- /container -->
+
+          <!-- Mobile Menu Start -->
+          <ul class="wpb-mobile-menu" style="z-index: 10; position: relative;">
+            <li class="active"><a href="https://www.ibdocuments.com">Home</a></li>
+                <li><a href="/IB BOOKS">IB BOOKS</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">PAST PAPERS<span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                    <li><a href="/IB PAST PAPERS - SUBJECT">By Subject</a></li>
+                    <li><a href="/IB PAST PAPERS - YEAR">By Year</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><img src="/assets/img/qb.png" style="margin-bottom: 1px;" width="15" height="15"> QUESTIONBANKS<span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                    <li><a href="/IB QUESTIONBANKS/1. First Edition">First Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/2. Second Edition">Second Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/3. Third Edition">Third Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/4. Fourth Edition">Fourth Edition</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://www.reddit.com/r/IBO/" target="_blank"><img src="/assets/img/reddit.png" style="margin-bottom: 2px; margin-right: 5px" width="15" height="15">REDDIT</a></li>                
+                <li><a href="https://discord.gg/ibo" target="_blank"><img src="/assets/img/discord.png" style="margin-bottom: 1px; margin-right: 3px" width="18" height="18">DISCORD</a></li>
+                <li><a href="https://t.me/ibdocs" target="_blank"><img src="/assets/img/telegram.png" style="margin-bottom: 2px; margin-right: 5px" width="15" height="15">TELEGRAM</a></li>
+           </ul>
+          <!-- Mobile Menu End -->
+
+        </nav>
+      </div>
+      <!-- Nav Menu Section End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+    
+<article class="content" itemprop="text">
+    <p align="center">
+        <img width="150" height="150" src="https://www.ibdocuments.com/assets/img/IBRR.png" style="max-width:100%;">
+    </p>
+<h1>A Guide to the IB Resources – What do they comprise, how to use them &amp; other things about them</h1>
+<p>If ALL servers are currently down, please have patience because we're working on it. Uploading takes time; when new links are ready they'll updated in our <a href="https://www.ibdocuments.com/" target="_blank">IB Documents</a> page.</p>
+
+    <hr>
+    
+<p>What is known by IB Students as the “IB Resources” comprises mainly 10 folders, these being:</p>
+    
+<ol>
+    <li><p>1. <a href="#1">IB Books</a></p></li>
+    <li><p>2. <a href="#2">IB Documents</a></p></li>
+    <li><p>3. <a href="#3">IB Extended Essay Exemplars</a></p></li>
+    <li><p>4. <a href="#4">IB Guides</a></p></li>
+    <li><p>5. <a href="#5">IB Past Papers (Organized by Subject)</a></p></li>
+    <li><p>6. <a href="#6">IB Past Papers (Organized by Year)</a></p></li>
+    <li><p>7. <a href="#7">IB QuestionBanks</a></p></li>
+    <li><p>8. <a href="#8">IB Specimen Papers</a></p></li>
+    <li><p>9. <a href="#9">IB Subject Reports</a></p></li>
+    <li><p>10. <a href="#10">DP and MYP Teacher Support Materials (TSM)</a></p></li>
+    <li><p>11. <a href="#11">MYP Content</a></p></li>
+</ol>
+
+    <hr>
+    
+<p>Briefly, the contents of each one will be described below:</p>
+
+    <hr>
+    
+<p id="1">1) This one is self-explanatory, mainly there are Books specially prepared for the IB syllabuses of each subject, we could say we have most books for all the mainstream subjects and some for the not-so mainstream ones. Also, there are IB-related miscellaneous books. Always check here before requesting a book. And have in mind that if it’s not already there, it’s most definitely not available. </p>
+
+    <hr>
+    
+<p id="2">2) In the IB Documents folder you’ll find, in ALL available languages, the (now deprecated) Handbook of Procedures for the Diploma Programme, Forms and Cover Sheets, Answer Booklet Guides, Assessment Access Requirements, Conduct of IB Diploma Programme Examinations, Coordinator's Notes, Data &amp; Formula Booklets, Diploma Program Candidates Documents, Diploma Programme Assessment Procedures, eCourseWork User Guide &amp; Newsletter, Exam Paper Style Samples, Examination Schedules, Examination Sessions Stationery, Examples of New Style Sources, External Whistleblowing Policy, Grade Boundaries, IB Complaints Procedure, IB Financial &amp; Annual Reviews, IB Journal of Teaching Practice, IB PPT Templates, IB Statistical Bulletin, TOP SECRET IB DOCUMENTS and Use of Calculators in Examinations. Practically everything with some few folder exceptions have been ripped-off from the (now decommissioned) IB OCC (IB Online Curriculum Centre). The most important document which all students should be aware of and should refer to if they have any doubts is aforementioned Diploma Programme Assessment Procedures, this document has all the information you should know regarding procedures in the DP.</p>
+
+    <hr>
+    
+<p id="3">3) In the IB Extended Essay Exemplars you’ll find graded (and commented in some cases) Extended Essay Samples from top, middle and low scores (so you know what to do and what to avoid). Also, you’ll find the IB Extended Essay Reports which are documents that IB prepares every session in which they point out all the strengths and weaknesses of that session’s Extended Essays. Finally, in this folder are included 3 official IB CDs containing the following publications: 50 Excellent Extended Essays (2008), 50 More Excellent Extended Essays (2011) and 50 Excellent Theory of Knowledge Essays (2010).</p>
+
+    <hr>
+    
+<p id="4">4) In the IB Guides folder you’ll find all the available Subject Guides in all available languages, as provided by IB. IB Guides include the syllabi of a subject including other important details such as assessment information. Essentially any information you (or more likely your teacher) should need for a subject should be found in this document.</p>
+
+    <hr>
+    
+<p id="5">5) Thanks to a script written in Python originally by <a href="https://www.reddit.com/user/batmansmaster" target="_blank">/u/batmansmaster</a>, then improved by @pants#7752 we have, organized by subject, all the IB Past Papers and Markschemes.</p>
+
+    <hr>
+    
+<p id="6">6) These are the all-time known IB Past Papers and Markschemes organized by year, as IB provides them.</p>
+
+    <hr>
+    
+<p id="7">7) Currently there are 4 versions of QuestionBanks. Versions 1, 2 and 3 are in .exe format meaning you could install it in a Windows PC (or in MAC using third-party software). Version 4 QuestionBanks are now available in a zipped folder; to use it just download the zip, extract it and then click on "index.html", then navigate like any other site, be sure to check the "Important Message". The aforementioned .exe programs and the zip file are available in this folder. The options to sort out questions and create tests are not available due to them being handled only by IB's servers and it's not possible to natively replicate those features.</p>
+<p>Basically, in general terms, QuestionBanks are a collection of past questions organized by subject, year, topic and subtopic. The latest version is currently fourth; it is an invaluable resource for students to study and practice. Each QuestionBank version comprises a set of years, generally the ones relevant to the current syllabus, and a version 4 QB doesn't necessarily contain questions from versions 1 to 3.</p>
+
+    <hr>
+    
+<p id="8">8) When the IB changes the syllabus of a subject (releases a new guide for a subject) they create Specimen Papers to reflect those changes. The changes may include new content being added (like M16 sciences) or the time/mark allocation being changed (like M17 HL Mathematics). This is done so that teachers and students familiarize with what to expect for the new syllabus as no past papers that contain said new additions are available. You’ll find these Specimen Papers in this folder.</p>
+
+    <hr>
+    
+<p id="9">9) IB Subject Reports are documents that the IB prepares after each exam session which are powerful tools that coordinators and teachers use to see, in a very general way, the performance of the students in that exam session. Also, the Grade Boundaries for each subject are shown. You’ll find these documents in this folder in all available languages.</p>
+
+    <hr>
+    
+<p id="10">10) In the Teacher Support Material (TSM) you'll find mainly Internal Assessments (IAs) graded and commented by external IB examiners. Other relevant (for a teacher) generalities of the subject can be found here as well. These TSM pages are provided in our <a href="https://www.ibdocuments.com/ibtsm.html" target="_blank">TSM page for Diploma Programme (DP)</a> and our <a href="https://www.ibdocuments.com/myptsm.html" target="_blank">TSM page for Middle Years Programme (MYP)</a> in all available languages for all available subjects, as provided by IB.</p>
+    
+    <hr>
+    
+<p id="11">11) In the MYP section you'll find all resources we have available for the Middle Years Programme (MYP) such as Books, General Documents, ePortfolio Exemplars, Examination Exemplars, Past Papers organized by year, Specimen Papers and Subject Guides.</p>
+    
+</article>
+    <!-- Advertisement Section Start -->
+<div id="ad-div">
+    <iframe data-aa="1146790" id="aad" src="//acceptable.a-ads.com/1146790" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true"></iframe>
+</div>
+<!-- Call to action Section -->
+        <div  id="adblock-message">
+          Our website is made possible by displaying online advertisements to our visitors.<br>
+          Please consider supporting us by disabling your ad blocker.
+        </div>
+        <section id="event" class="section">
+                                                                                
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+
+                        <h2 class="wow animated slideInRight" data-wow-delay=".4s"><a rel="nofollow">HELP US KEEP THIS WEBSITE RUNNING BY DONATING</a></h2>
+                        <a class="wow animated fadeInUp btn btn-common mt-50" data-wow-delay=".6s">
+                        <div class="tooltip1"><img src="https://www.ibdocuments.com/assets/img/btc.png">
+                            <span class="tooltiptext1"><img src="https://www.ibdocuments.com/assets/img/qr.png"> <p class="qr">Help us keep the server online!</p></span>
+                        </div>    
+                        </a>
+                        <h2 class="wow animated slideInRight" data-wow-delay=".4s"><a rel="nofollow">You can also help us by using Brave browser </a><a href="https://brave.com/download/" target="_blank"><img src="/assets/img/brave.png" height="59" width="50"></a><a rel="nofollow"> and donating BAT</a><a href="https://basicattentiontoken.org/" target="_blank"><img src="/assets/img/bat.png" height="45" width="52"></a> </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action Section End -->
+<style>
+
+</style>
+
+    <!-- Footer Section Start -->   
+    <footer class="section">  
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <h3><img src="/assets/img/logo1.png" style="margin-top: 10px;" width="205" height="65"></h3>
+            <p>
+            If you have resources to donate, send an email to the address on top or PM <a href="https://www.reddit.com/message/compose?to=TemplarKnight98&subject=IB+RESOURCES+REPOSITORY" target="_blank">u/TemplarKnight98</a> on Reddit or Discord. You can also donate BTC above to help us keep this online.
+            </p>
+          </div>
+
+
+    <!-- Advertisement Section Start -->
+<div id="ad-div" class="col-md-9">
+    <iframe data-aa="1146790" id="aad" src="//acceptable.a-ads.com/1146790" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true"></iframe>
+</div>
+
+<script>
+    window.setInterval('console.log("Beep Boop! Ad Updating!");document.getElementById("aad").src="//acceptable.a-ads.com/1146790";', 25000);
+    window.onload = function() {
+        if(!document.getElementById('ad')){
+            document.getElementById('adblock-message').style.display='block';
+        };
+
+        if(document.getElementById('ad').getAttribute("hidden")!=null){
+            document.getElementById('adblock-message').style.display='block';
+            console.log("You are using an adblocker");
+        };
+  
+        if(document.getElementById("ad-div").offsetHeight == 0){
+            document.getElementById('adblock-message').style.display='block';
+            console.log("You are using an adblocker");
+        };
+
+        if( window.canRunAds != true ){
+            document.getElementById('adblock-message').style.display='block';
+            console.log("You are using an adblocker");
+        };
+    };
+</script>
+            
+<!-- Advertisement Section End --> 
+<div>
+    <br><br><strong>BTC: </strong><input class="input" type="text" value="14QZ2GxhGNmXaGbTXKxdfBhWYKPmCYN1Co" id="myInput2">
+
+    <div class="tooltip2">
+        <button class="donbutton" onclick="myFunction1()" onmouseout="outFunc1()">
+            <span class="tooltiptext2" id="myTooltip2">Copy to clipboard</span>
+        </button>
+    </div>
+</div>
+        </div>
+      </div>      
+    </footer>  
+    <!-- Footer Section End -->  
+
+    <!-- Main content End -->
+
+    <!-- Copytight Start -->
+    <section id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="copyleft">
+             <p class=cc><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> This webpage is under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- Copytight End -->   
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    <i class="icon-arrow-up"></i>
+    </a>
+
+    <!-- jQuery Load -->    
+    <script src="https://www.ibdocuments.com/assets/js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://www.ibdocuments.com/assets/js/bootstrap.min.js"></script>
+    <!-- Countdown Js -->
+    <script src="https://www.ibdocuments.com/assets/js/jquery.countdown.min.js"></script>
+    <!-- Smooth scroll JS -->   
+    <script src="https://www.ibdocuments.com/assets/js/smooth-scroll.js"></script>        
+    <!-- Wow Scroll -->
+    <script src="https://www.ibdocuments.com/assets/js/wow.js"></script>
+    <!-- Owl carousel -->
+    <script src="https://www.ibdocuments.com/assets/js/owl.carousel.min.js"></script>
+    <!-- Slicknav js -->
+    <script src="https://www.ibdocuments.com/assets/js/jquery.slicknav.js"></script>
+    <!--  Nivo lightbox Js -->
+    <script src="https://www.ibdocuments.com/assets/js/nivo-lightbox.js"></script>   
+    <!-- Contact Form Scripts -->
+    <script src="https://www.ibdocuments.com/assets/js/form-validator.min.js"></script>  
+    <script src="https://www.ibdocuments.com/assets/js/contact-form-script.js"></script>    
+ 
+    <!-- All Js plugin -->
+    <script src="https://www.ibdocuments.com/assets/js/main.js"></script> 
+    <!-- Map JS -->
+    <script type="text/javascript" src="https://www.ibdocuments.com/assets/js/jquery.mapit.min.js"></script>
+    <script src="https://www.ibdocuments.com/assets/js/initializers.js"></script>
+    <script>
+        function myFunction1() {
+            var copyText = document.getElementById("myInput2");
+            copyText.select();
+            document.execCommand("Copy");
+  
+            var tooltip = document.getElementById("myTooltip2");
+            tooltip.innerHTML = "Copied BTC address";
+        }
+
+        function outFunc() {
+            var tooltip = document.getElementById("myTooltip2");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+    </script>
+  </body>
+</html>

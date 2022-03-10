@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179523769-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-179523769-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>IB Documents - Tutorial</title>
+        
+    <link rel="icon" type="image/png" href="/assets/img/IBRR.png">
+      
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://www.ibdocuments.com/assets/css/bootstrap.min.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/font-awesome.min.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/nivo-lightbox.css">
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/owl.carousel.css">
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/colors/default.css" media="screen"> 
+    
+    <style type="text/css">
+    
+#adblock-message {
+    display: none;
+    padding: 20px 10px;
+    background: #D30000;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.copyleft {
+    text-align: right;
+    font-weight: 600;
+    color: #31708f;
+}
+.cc {
+    text-align: center;
+}
+.qr {
+    color: #31708f;
+    font-weight: bold;
+}   
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+    float:right;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 310px;
+    background-color: white;
+    color: transparent;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -400px;
+    right: -10%;
+    border-radius: 20px;
+}
+.tooltip1 .tooltiptext1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -20px;
+    border-width: 5px;
+}
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+}
+.tooltip2 {
+    position: relative;
+    display: inline-block;
+}
+.tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 150px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    border-bottom-right-radius: 0;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -150px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip2 .tooltiptext2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 96.7%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+    opacity: 1;
+}
+.input {
+    border-color: transparent;
+    background-color: transparent;
+    width: 355px;
+    font-family: segoe ui, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px;
+    border: 0px;
+}
+.donbutton {
+    background-image: url(/assets/img/clipboard-copy.png);
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+    padding: 0px;
+    border: 0px;
+}
+.sponsors {
+    margin-top: 20px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -moz-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+.spnsors:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.14);
+}
+.vid {
+    position: static;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-size: cover;
+    transition: 1s opacity;
+    -webkit-transform: translateX(0%) translateY(0%);
+    -moz-transform: translateX(0%) translateY(0%);
+    transform: translateX(0%) translateY(0%);
+}
+    </style>
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Roof area Starts -->
+      <div id="roof" class="hidden-xs">
+          <div class="container">
+            <div class="col-md-6 col-sm-6">
+              <div class="info-bar-address">
+                 Site Managed by IB Documents Team
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <!-- Quick Contacts Starts -->
+              <div class="quick-contacts">
+                  <span><img src="/assets/img/documents.png" style="margin-bottom: 2px" width="20" height="20"> Have Resources To Donate? Email Us!</span>
+                  <span><img src="/assets/img/envelope.png" style="margin-bottom: 2px; margin-right: 3px" width="20" height="15"> <a href="mailto:ibtemplarknight98@gmail.com">ibtemplarknight98@gmail.com</a></span>
+              </div>
+              <!-- Quick Contacts End -->
+            </div>
+          </div>
+      </div>
+      <!-- Roof area End -->
+
+      <!-- Nav Menu Section Start -->
+      <div class="navigation-menu">
+        <nav class="navbar navbar-default navbar-event" >
+          <div class="container">
+            <div class="navbar-header col-md-2">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="index.html"><img src="/assets/img/logo1.png" style="margin-top: 10px; z-index: 1;" width="269" height="85"></a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/IB BOOKS">IB BOOKS</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">PAST PAPERS<img src="/assets/img/down.png" style="margin-bottom: 4px; margin-left: 2px" width="15" height="15"></a>
+                   <ul class="dropdown-menu">
+                    <li><a href="/IB PAST PAPERS - SUBJECT">By Subject</a></li>
+                    <li><a href="/IB PAST PAPERS - YEAR">By Year</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><img src="/assets/img/qb.png" style="margin-bottom: 1px;" width="15" height="15"> QUESTIONBANKS<img src="/assets/img/down.png" style="margin-bottom: 4px; margin-left: 2px" width="15" height="15"></a>
+                   <ul class="dropdown-menu">
+                    <li><a href="/IB QUESTIONBANKS/1. First Edition">First Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/2. Second Edition">Second Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/3. Third Edition">Third Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/4. Fourth Edition">Fourth Edition</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://www.reddit.com/r/IBO/" target="_blank"><img src="/assets/img/reddit.png" style="margin-bottom: 2px; margin-right: 5px" width="15" height="15">REDDIT</a></li>                
+                <li><a href="https://discord.gg/ibo" target="_blank"><img src="/assets/img/discord.png" style="margin-bottom: 1px; margin-right: 3px" width="18" height="18">DISCORD</a></li>
+                <li><a href="https://t.me/ibdocs" target="_blank"><img src="/assets/img/telegram.png" style="margin-bottom: 2px; margin-right: 5px" width="15" height="15">TELEGRAM</a></li>
+              </ul>
+            </div><!-- /navbar-collapse -->
+          </div><!-- /container -->
+
+          <!-- Mobile Menu Start -->
+          <ul class="wpb-mobile-menu" style="z-index: 10; position: relative;">
+                <li><a href="/IB BOOKS">IB BOOKS</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">PAST PAPERS<span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                    <li><a href="/IB PAST PAPERS - SUBJECT">By Subject</a></li>
+                    <li><a href="/IB PAST PAPERS - YEAR">By Year</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><img src="/assets/img/qb.png" style="margin-bottom: 1px;" width="15" height="15"> QUESTIONBANKS<span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                    <li><a href="/IB QUESTIONBANKS/1. First Edition">First Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/2. Second Edition">Second Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/3. Third Edition">Third Edition</a></li>
+                    <li><a href="/IB QUESTIONBANKS/4. Fourth Edition">Fourth Edition</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://www.reddit.com/r/IBO/" target="_blank"><img src="/assets/img/reddit.png" style="margin-bottom: 2px; margin-right: 5px" width="15" height="15">REDDIT</a></li>                
+                <li><a href="https://discord.gg/ibo" target="_blank"><img src="/assets/img/discord.png" style="margin-bottom: 1px; margin-right: 3px" width="18" height="18">DISCORD</a></li>
+                <li><a href="https://t.me/ibdocs" target="_blank"><img src="/assets/img/telegram.png" style="margin-bottom: 2px; margin-right: 5px" width="15" height="15">TELEGRAM</a></li>
+           </ul>
+          <!-- Mobile Menu End -->
+
+        </nav>
+      </div>
+      <!-- Nav Menu Section End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+      
+      <section id="sponsors" class="section-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+                <center style="padding-top: 15px;">
+                    <a>
+                    <img src="/assets/img/IBRR.png" alt="International Baccalaureate Organization" width="150" height="150">
+                    </a>
+                </center>
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0s">How to download the resources?</h2>
+            </div>
+          <div class="col-md-3 col-sm-6 col-xs-12" style="width: 100%">
+<div class="sponsors wow fadeInUp" data-wow-delay="0.1s" style="padding-left: 10%">
+    
+    <h4 style="text-align: justify">At the start of each examination session, the IB Documents Team will generate a Torrent file which will contain all the resources that are or previously were in the <a href="https://www.ibdocuments.com/">ibdocuments.com</a> Resources Repository. <br><br> This Torrent will be on a Seedbox, meaning it will always be available for download. <br><br> The Torrent file will be named with the following format → <span style="border: solid black 1px; padding-left: 7px; padding-right: 7px;">ibdocuments.com [May/November Year].torrent</span></h4>
+    <h3>1. Download a Torrent client</h3>
+    <h4 style="text-align: justify">We recommend getting the Torrent client <a href="https://www.qbittorrent.org/download.php">qBitTorrent</a>. It is FREE and it is available for Windows, Mac OS and Linux or Unix-based systems. Select the appropriate version depending on your operating system. If you already have a Torrent client, proceed to step 2. However, if you are experiencing any problems with your current Torrent client USE the one we recommend. It can handle large files very well unlike other clients. If you are having problems installing it on Mac OS <a href="https://support.apple.com/en-us/HT202491">follow this guide</a>.</h4>
+    <img src="assets/img/s1.png" style="width: 70%; margin-left: auto; margin-right: auto; display: block">
+    <h3>2. Download the latest IB Documents Torrent file</h3>
+    <h4 style="text-align: justify">Go to the Telegram Chat. Link to it can be found in the top right corner of the <a href="https://www.ibdocuments.com/">ibdocuments.com</a> page. It is the one linked here → <a href="https://t.me/s/ibdocs">https://t.me/s/ibdocs</a>. Scroll to the bottom of the chat to find the .torrent file and a link to download the .torrent file directly in case the first option does not work.</h4>
+    <img src="assets/img/s2.png" style="width: 70%; margin-left: auto; margin-right: auto; display: block">
+    <h3>3. Open the Torrent file with the Torrent client</h3>
+    <h4 style="text-align: justify">After you have downloaded the .torrent file, just open it with the Torrent client downloaded in step one (or the client of your preference). You will be able to select exactly which folders/files will be downloaded and where will they be saved in your PC. Be sure to let it load for a while in case the contents of the Torrent are not immediately shown.</h4>
+    <img src="assets/img/s3.png" style="width: 70%; margin-left: auto; margin-right: auto; display: block">
+    <h3>4. Wait for the selected files to be downloaded</h3>
+    <h4 style="text-align: justify">When you have selected exactly which folders will be downloaded, click OK and then wait for everything to finish. After it has finished, you will have the selected folders downloaded in the location specified in the previous step. We recommend seeding the files so availability is improved for everyone. It is one way to help us.</h4>
+    <img src="assets/img/s4.png" style="width: 70%; margin-left: auto; margin-right: auto; display: block">
+    
+        
+</div>
+        </div>
+        </div>
+    </div>
+    </section>
+<!-- Sponsors Section End --> 
+    <!-- Advertisement Section Start -->
+<div id="ad-div">
+    <iframe data-aa="1146790" id="aad" src="//acceptable.a-ads.com/1146790" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true"></iframe>
+</div>
+        <!-- Call to action Section -->
+        <div  id="adblock-message">
+          Our website is made possible by displaying online advertisements to our visitors.<br>
+          Please consider supporting us by disabling your ad blocker.
+        </div>
+        <section id="event" class="section">
+                                                                                
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+
+                        <h2 class="wow animated slideInRight" data-wow-delay=".4s"><a rel="nofollow">HELP US KEEP THIS WEBSITE RUNNING BY DONATING</a></h2>
+                        <a class="wow animated fadeInUp btn btn-common mt-50" data-wow-delay=".6s">
+                        <div class="tooltip1"><img src="/assets/img/btc.png">
+                            <span class="tooltiptext1"><img src="/assets/img/qr.png"> <p class="qr">Help us keep the server online!</p></span>
+                        </div>    
+                        </a>
+                        <h2 class="wow animated slideInRight" data-wow-delay=".4s"><a rel="nofollow">You can also help us by using Brave browser </a><a href="https://brave.com/download/" target="_blank"><img src="/assets/img/brave.png" height="59" width="50"></a><a rel="nofollow"> and donating BAT</a><a href="https://basicattentiontoken.org/" target="_blank"><img src="/assets/img/bat.png" height="45" width="52"></a> </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action Section End -->
+<style>
+
+</style>
+
+    <!-- Footer Section Start -->   
+    <footer class="section">  
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <h3><img src="/assets/img/logo1.png" style="margin-top: 10px;" width="205" height="65"></h3>
+            <p>
+            If you have resources to donate, send an email to the address on top or PM <a href="https://www.reddit.com/message/compose?to=TemplarKnight98&subject=IB+RESOURCES+REPOSITORY" target="_blank">u/TemplarKnight98</a> on Reddit or Discord. You can also donate BTC above to help us keep this online.
+            </p>
+          </div>
+
+
+    <!-- Advertisement Section Start -->
+<div id="ad-div" class="col-md-9">
+    <iframe data-aa="1146790" id="aad" src="//acceptable.a-ads.com/1146790" scrolling="no" style="border:0px; padding:0; width:100%; height:100%; overflow:hidden" allowtransparency="true"></iframe>
+</div>
+
+<script>
+    window.setInterval('console.log("Beep Boop! Ad Updating!");document.getElementById("aad").src="//acceptable.a-ads.com/1146790";', 25000);
+    window.onload = function() {
+        if(!document.getElementById('ad')){
+            document.getElementById('adblock-message').style.display='block';
+        };
+
+        if(document.getElementById('ad').getAttribute("hidden")!=null){
+            document.getElementById('adblock-message').style.display='block';
+            console.log("You are using an adblocker");
+        };
+  
+        if(document.getElementById("ad-div").offsetHeight == 0){
+            document.getElementById('adblock-message').style.display='block';
+            console.log("You are using an adblocker");
+        };
+
+        if( window.canRunAds != true ){
+            document.getElementById('adblock-message').style.display='block';
+            console.log("You are using an adblocker");
+        };
+    };
+</script>
+            
+<!-- Advertisement Section End --> 
+<div>
+    <br><br><strong>BTC: </strong><input class="input" type="text" value="14QZ2GxhGNmXaGbTXKxdfBhWYKPmCYN1Co" id="myInput2">
+
+    <div class="tooltip2">
+        <button class="donbutton" onclick="myFunction1()" onmouseout="outFunc1()">
+            <span class="tooltiptext2" id="myTooltip2">Copy to clipboard</span>
+        </button>
+    </div>
+</div>
+        </div>
+      </div>      
+    </footer>  
+    <!-- Footer Section End -->  
+
+    <!-- Main content End -->
+
+    <!-- Copytight Start -->
+    <section id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="copyleft">
+             <p class=cc><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> This webpage is under the <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- Copytight End -->   
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+    <i><img src="/assets/img/arrow.png" width="17" height="17"></i>
+    </a>
+      
+    <!-- Ads JS -->
+    <script src="/assets/js/ads.js"></script>
+    <!-- jQuery Load -->    
+    <script src="/assets/js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <!-- Smooth scroll JS -->   
+    <script src="/assets/js/smooth-scroll.js"></script>        
+    <!-- Wow Scroll -->
+    <script src="/assets/js/wow.js"></script>
+    <!-- Owl carousel -->
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <!-- Slicknav js -->
+    <script src="/assets/js/jquery.slicknav.js"></script>
+    <!--  Nivo lightbox Js -->
+    <script src="/assets/js/nivo-lightbox.js"></script>   
+    <!-- All Js plugin -->
+    <script src="/assets/js/main.js"></script> 
+   
+    <script>
+        function myFunction1() {
+            var copyText = document.getElementById("myInput2");
+            copyText.select();
+            document.execCommand("Copy");
+  
+            var tooltip = document.getElementById("myTooltip2");
+            tooltip.innerHTML = "Copied BTC address";
+        }
+
+        function outFunc() {
+            var tooltip = document.getElementById("myTooltip2");
+            tooltip.innerHTML = "Copy to clipboard";
+        }
+    </script>
+  </body>
+</html>
