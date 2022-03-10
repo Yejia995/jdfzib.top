@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Simple-Line-Icons';
+	src:url('https://www.ibdocuments.com/assets/fonts/line-icons/Simple-Line-Icons.eot');
+	src:url('https://www.ibdocuments.com/assets/fonts/line-icons/Simple-Line-Icons.eot?#iefix') format('embedded-opentype'),
+		url('https://www.ibdocuments.com/assets/fonts/line-icons/Simple-Line-Icons.woff') format('woff'),
+		url('https://www.ibdocuments.com/assets/fonts/line-icons/Simple-Line-Icons.ttf') format('truetype'),
+		url('https://www.ibdocuments.com/assets/fonts/line-icons/Simple-Line-Icons.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+/*
+ Use the following CSS code if you want to have a class per icon.
+ Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
+*/
+.icon-phone,
+.icon-envelope,
+.icon-arrow-up,
+.icon-social-steam {
+  font-family: 'simple-line-icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrow-up:before {
+  content: "\e607";
+}
+.icon-envelope:before {
+  content: "\e086";
+}
+.icon-phone:before {
+  content: "\e600";
+}
